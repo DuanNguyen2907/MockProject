@@ -463,10 +463,11 @@ function SalesInShop() {
                                     }}
                                 />
                                 <div className="result_search">
-                                    {products.map((product) => {
-                                        return (
-                                            <Card sx={{ minWidth: '60ch' }}>
+                                    <Card sx={{ minWidth: '60ch', height: 'auto' }}>
+                                        {products.map((product) => {
+                                            return (
                                                 <ResultProductSearch
+                                                    sx={{ width: '98%', margin: '10px 0' }}
                                                     key={product.id}
                                                     product={product}
                                                     onClick={() => {
@@ -510,9 +511,9 @@ function SalesInShop() {
                                                         setSearchProduct('');
                                                     }}
                                                 />
-                                            </Card>
-                                        );
-                                    })}
+                                            );
+                                        })}
+                                    </Card>
                                 </div>
                                 <div className="orders">
                                     <Box

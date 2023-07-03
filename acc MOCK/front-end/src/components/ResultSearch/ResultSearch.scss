@@ -1,16 +1,19 @@
 .result-search{
     padding: 10px;
-    border-radius: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: white;
     -webkit-box-shadow: 3px 7px 15px -8px rgba(0,0,0,0.75);
     -moz-box-shadow: 3px 7px 15px -8px rgba(0,0,0,0.75);
     box-shadow: 3px 7px 15px -8px rgba(0,0,0,0.75);
-    margin-bottom: 10px;
 }
 
 .customer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
+    border: 1px solid black;
 }
 .delete_icon{
     opacity: 0;
@@ -42,7 +45,12 @@
     align-items: center;
     cursor: pointer;
 
+    .info{
+        display: flex;
+    }
+
     .image {
+        margin-right: 10px;
         img{
             width: 50px;
             height: auto;

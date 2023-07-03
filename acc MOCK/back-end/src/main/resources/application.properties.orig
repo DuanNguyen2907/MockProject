@@ -5,6 +5,10 @@
 
 spring.datasource.url= jdbc:mysql://localhost:3306/mockproject?useSSL=false
 spring.datasource.username= root
+<<<<<<< Updated upstream
+spring.datasource.password= levanbao2002
+=======
 spring.datasource.password= duannguyen2907
+>>>>>>> Stashed changes
 
 logging.level.sql = DEBUG
